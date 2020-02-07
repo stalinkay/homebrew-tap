@@ -6,7 +6,7 @@ cask 'utorrent' do
     name 'µTorrent'
     homepage 'https://www.utorrent.com/'
  
-    app: 'uTorrent.app'
+    app 'uTorrent.app'
  
     zap delete: [
                   '~/Library/Application Support/uTorrent',
