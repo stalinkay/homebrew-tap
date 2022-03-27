@@ -4,7 +4,7 @@ cask "cypress" do
 
   url "https://cdn.cypress.io/desktop/#{version}/darwin-x64/cypress.zip"
   name "cypress"
-  desc "Test your code, not your patience."
+  desc "Test your code, not your patience"
   homepage "https://www.cypress.io"
 
   app 'Cypress.app'
