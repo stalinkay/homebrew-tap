@@ -4,7 +4,7 @@ cask "capcut" do
 
   url "https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut$
   name "CapCut"
-  desc "Create stunning videos easily with auto captions, text-to-speech, effects, filters, text features, transitions, and many more."
+  desc "Produce stunning videos easily with auto captions, text-to-speech, effects, filters, text features, transitions, and many more."
   homepage "https://www.capcut.com"
 
   app "capcut.app"
