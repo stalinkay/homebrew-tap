@@ -9,7 +9,7 @@ cask "markup-hero" do
 
   livecheck do
     url "https://markuphero.com/download"
-    regex(/href=.*?MarkupHero[._-]v?(\d+(?:\.\d+)+)\.dmg/i)
+    regex(/href=.*?MarkupHero-(\d+(?:\.\d+)+)\.dmg/i)
   end
 
   app "MarkupHero.app"
