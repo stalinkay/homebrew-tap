@@ -7,5 +7,20 @@ cask "upscayl" do
   desc "Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy."
   homepage "https://www.upscayl.org"
 
+  livecheck do
+    url :stable
+    regex(/^upscayl[._-]v?(\d+(?:\.\d+)+)$/i)
+    strategy :github_releases do |json, regex|
+      json.map do |release|
+        next if release["draft"] || release["prerelease"]
+
+        match = json["tag_name"]&.match(regex)
+        next if match.blank?
+
+        match[1]
+      end
+    end
+  end
+
   app "upscayl.app"
 end
