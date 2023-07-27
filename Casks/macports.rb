@@ -27,7 +27,7 @@ cask "macports" do
   uninstall pkgutil: "org.macports.MacPorts",
             script:  {
                         executable: "/opt/local/bin/port",
-                        args: ["-fp", "uninstall", "port_name"],
+                        args: ["-fp", "uninstall", "installed"],
                         sudo: true,
                       }
 end
