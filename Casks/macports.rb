@@ -24,5 +24,10 @@ cask "macports" do
 
   pkg "MacPorts-#{version}-13-Ventura.pkg"
 
-  uninstall pkgutil: "org.macports.MacPorts"
+  uninstall pkgutil: "org.macports.MacPorts",
+            script:  {
+                        executable: "/opt/local/bin/port",
+                        args: ["-fp", "uninstall", "port_name"],
+                        sudo: true,
+                      }
 end
