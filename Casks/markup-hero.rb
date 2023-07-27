@@ -8,7 +8,7 @@ cask "markup-hero" do
   homepage "https://markuphero.com"
 
   livecheck do
-    url "#{:homepage}/download"
+    url "https://markuphero.com/download"
     regex(/href=.*?MarkupHero[._-]v?(\d+(?:\.\d+)+)\.dmg/i)
   end
 
