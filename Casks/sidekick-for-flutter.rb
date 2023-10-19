@@ -2,7 +2,7 @@ cask "sidekick-for-flutter" do
   version "1.1.1"
   sha256 "573c5a2b61842cde04d4511ee976c97ac463d16bb97dd2a6c8dbd083600343ca"
 
-  url "https://github.com/fluttertools/sidekick/releases/download/v#{version}/sidekick-macos-#{version}.dmg"
+  url "https://github.com/fluttertools/sidekick/releases/download/#{version}/sidekick-macos-#{version}.dmg"
   name "sidekick-for-flutter"
   desc "A simple desktop interface for tools that enhance Flutter's development experience to make it even more delightful."
   homepage "https://github.com/fluttertools/sidekick"
