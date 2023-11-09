@@ -1,6 +1,6 @@
 cask "codecompanion" do
   version "latest" # Replace 'latest' with the actual version number when known
-  sha256 "auto" # Use 'auto' for Casks with version :latest
+  sha256 "aa72bdb309131ed45adb404bff2c04525628358532a1fce50521a3dfccdeda42" # Use 'auto' for Casks with version :latest
 
   url "https://codecompanion.s3.us-west-2.amazonaws.com/CodeCompanion.dmg"
   name "CodeCompanion"
