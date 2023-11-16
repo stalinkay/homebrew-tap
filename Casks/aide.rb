@@ -13,5 +13,12 @@ cask "aide" do
   desc "Instruct AI agents to build your software"
   homepage "https://codestory.ai"
 
+  livecheck do
+    url "https://github.com/codestoryai/binaries"
+    regex(/^Aide[._-]v?(\d+(?:\.\d+)+)$/i)
+    strategy :github_latest
+  end
+
+
   app "Aide.app"
 end
