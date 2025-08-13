@@ -12,5 +12,5 @@ cask "markup-hero" do
     regex(/href=.*?MarkupHero-(\d+(?:\.\d+)+)\.dmg/i)
   end
 
-  app "MarkupHero.app"
+  app "Markup Hero.app"
 end
